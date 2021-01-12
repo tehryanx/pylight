@@ -5,7 +5,7 @@ import argparse, sys
 import re
 import os
 
-parser = argparse.ArgumentParser(description = "Take hostnames on stdin and return IPs.")
+parser = argparse.ArgumentParser(description = "Highlighth lines in bash")
 parser.add_argument('-f', '--foreground', default=None, help="Set the foreground color for matching lines.")
 parser.add_argument('-b', '--background', default=None, help="Set the background color for matching lines.")
 parser.add_argument('-p', '--pattern', help="We highlight lines that match this regex pattern")
